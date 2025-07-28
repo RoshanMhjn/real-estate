@@ -1,13 +1,15 @@
-import { Button } from "./components/ui/button"
-
+import { Hero } from "./components/Hero";
+import { Navbar } from "./components/Navbar";
+import { PropertyListings } from "./components/PropertyListings";
 
 const App = () => {
   return (
-    <div className="text-7xl">Home
-    
-    <Button variant="outline">Click</Button>
+    <div>
+      <Navbar />
+      <Hero />
+      <PropertyListings />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
