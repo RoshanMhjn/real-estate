@@ -1,7 +1,0 @@
-{
-  "build": {
-    "env": {
-      "TS_NODE_PROJECT": "tsconfig.json"
-    }
-  }
-}
