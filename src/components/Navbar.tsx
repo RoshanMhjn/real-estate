@@ -64,8 +64,14 @@ export const Navbar = () => {
       </div>
 
       <div className="hidden md:flex gap-3">
-        <Button size="sm">Login / Signup</Button>
-        <Button variant="outline" size="sm">
+        <Button
+          size="sm"
+          className="border-orange-400 border-3 text-orange-500 hover:text-orange-600 rounded-4xl"
+          variant="outline"
+        >
+          Login / Signup
+        </Button>
+        <Button size="sm" className=" bg-orange-500   rounded-4xl">
           Add Listing
         </Button>
       </div>
