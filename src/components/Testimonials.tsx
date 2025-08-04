@@ -5,12 +5,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import { Quote } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const Testimonials = () => {
+  const { t } = useTranslation();
   return (
     <section className="relative px-4 lg:px-40 py-10  overflow-visible">
       <h2 className="text-4xl font-bold mb-6 text-center">
-        What Our Clients Say About Us
+        {t("testimonials.title")}
       </h2>
 
       <div className="flex justify-center mb-4">

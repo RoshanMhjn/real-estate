@@ -16,12 +16,19 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "./ui/accordion";
+import { LanguageSwitcher } from "./LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 export const Navbar = () => {
+  const { t } = useTranslation();
   return (
     <nav className="px-6 lg:px-40 border-b py-4 flex items-center justify-between">
       <div>
         <span className="text-xl font-semibold">EstateLogo</span>
+      </div>
+
+      <div>
+        <LanguageSwitcher />
       </div>
 
       <div className="hidden md:block">
@@ -32,7 +39,16 @@ export const Navbar = () => {
                 href="/"
                 className="font-medium hover:text-gray-600"
               >
-                Home
+                {t("navbar.home")}
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+
+            <NavigationMenuItem>
+              <NavigationMenuLink
+                href="/listings"
+                className="font-medium hover:text-gray-600"
+              >
+                Listings
               </NavigationMenuLink>
             </NavigationMenuItem>
 

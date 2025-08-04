@@ -17,8 +17,10 @@ import {
 } from "lucide-react";
 
 import { locationOptions, propertyTypeOptions } from "../lib/helper";
+import { useTranslation } from "react-i18next";
 
 export const Hero = () => {
+  const { t } = useTranslation();
   return (
     <section
       className="relative min-h-[100vh] md:h-[90vh] w-full bg-cover bg-center bg-no-repeat"
@@ -32,16 +34,14 @@ export const Hero = () => {
         {/* Text */}
         <div className="text-center lg:text-left max-w-xl">
           <h1 className="text-4xl lg:text-5xl font-bold mb-4">
-            Find Your <span className="text-orange-600">Dream</span> Home
+            {t("hero.headline")}
           </h1>
-          <p className="text-lg lg:text-xl mb-6">
-            Search thousands of listings in your city.
-          </p>
+          <p className="text-lg lg:text-xl mb-6">{t("hero.subtext")}</p>
           <Button
             size="lg"
             className="border-orange-500 border-3 rounded-full px-8 py-6"
           >
-            <span className="text-white text-xl">Explore Listings</span>
+            <span className="text-white text-xl">{t("hero.searchButton")}</span>
           </Button>
         </div>
 

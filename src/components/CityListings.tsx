@@ -2,12 +2,15 @@ import { ArrowUpRight } from "lucide-react";
 import { cities } from "../lib/helper";
 import { CityCard } from "./CityCard";
 import { Button } from "./ui/button";
+import { useTranslation } from "react-i18next";
 
 export const CityListings = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="w-full px-4 py-10 lg:px-40">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-4xl font-bold">Explore by Cities</h2>
+        <h2 className="text-4xl font-bold">{t("exploreByCities")}</h2>
 
         <Button
           className="border-orange-400 border-3 text-orange-500 hover:text-orange-600 rounded-4xl"

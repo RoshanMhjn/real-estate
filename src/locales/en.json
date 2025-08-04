@@ -1,0 +1,80 @@
+{
+  "navbar": {
+    "home": "Home",
+    "listings": "Listings",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "signup": "Sign Up",
+    "addListing": "Add Listing"
+  },
+  "hero": {
+    "headline": "Find Your Dream Home",
+    "subtext": "Search listings by city, type, and price to find the perfect place for you",
+    "searchButton": "Search Now"
+  },
+  "searchFilters": {
+    "location": "Location",
+    "propertyType": "Property Type",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "minPrice": "Min Price",
+    "maxPrice": "Max Price"
+  },
+  "services": {
+    "title": "Our Services",
+    "propertySales": "Property Sales",
+    "propertySalesDesc": "Buy or sell homes and land with confidence through expert guidance and verified listings.",
+    "rentingServices": "Renting Services",
+    "rentingServicesDesc": "Browse quality rentals or list your property with ease — for tenants and landlords alike.",
+    "advertising": "Advertising",
+    "advertisingDesc": "Reach more buyers and renters through our targeted, modern marketing strategies.",
+    "consulting": "Real Estate Consulting",
+    "consultingDesc": "Get market insights and expert advice tailored to your property investment goals.",
+    "legalSupport": "Legal Support",
+    "legalSupportDesc": "Navigate complex paperwork and real estate law with full legal guidance and support.",
+    "management": "Property Management",
+    "managementDesc": "Sit back while we handle maintenance, rent collection, and tenant care for your property.",
+    "stats": {
+      "customers": "2000+ Happy Customers",
+      "listings": "400+ Active Listings",
+      "experience": "9+ Years Experience"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say About Us",
+    "quoteMark": "“",
+    "readMore": "Read More"
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "description": "Subscribe to our newsletter to get the latest property updates and offers.",
+    "placeholder": "Enter your email",
+    "button": "Subscribe"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions"
+  },
+  "blog": {
+    "title": "Latest Blog Posts",
+    "readCount": "{{count}} reads",
+    "postedOn": "Posted {{timeAgo}} ago"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "companyDesc": "We connect people with their dream properties through trust, technology, and transparency.",
+    "quickLinks": "Quick Links",
+    "about": "About",
+    "faq": "FAQ",
+    "resources": "Resources",
+    "contact": "Contact Us",
+    "phone": "Phone",
+    "email": "Email",
+    "website": "Website",
+    "address": "Address",
+    "map": "View Map"
+  },
+  "popularListings": "Popular Listings",
+  "exploreByCities": "Explore by Cities"
+}

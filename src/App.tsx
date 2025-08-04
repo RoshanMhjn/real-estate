@@ -1,24 +1,22 @@
-import { CityListings } from "./components/CityListings";
-import { FAQSection } from "./components/FAQSeciton";
 import { Footer } from "./components/Footer";
-import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
-import { Newsletter } from "./components/Newsletter";
-import { PropertyListings } from "./components/PropertyListings";
-import { Services } from "./components/Services";
-import { Testimonials } from "./components/Testimonials";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import PropertyDetail from "./pages/PropertyDetail";
+import FilterPage from "./pages/FilterPage";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <PropertyListings />
-      <CityListings />
-      <Testimonials />
-      <Services />
-      <Newsletter />
-      <FAQSection />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/property/:id" element={<PropertyDetail />} />
+          <Route path="/listings" element={<FilterPage />} />
+        </Routes>
+      </Router>
       <Footer />
     </div>
   );

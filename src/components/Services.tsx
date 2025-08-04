@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import CountUp from "react-countup";
 
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
 
 const services = [
   {
@@ -49,9 +50,11 @@ export const Services = () => {
 
   const [ref, inView] = useInView({ triggerOnce: true });
 
+  const { t } = useTranslation();
+
   return (
     <section className="px-4 lg:px-40 py-10 text-center bg-gray-50">
-      <h2 className="text-4xl font-bold mb-12">Our Services</h2>
+      <h2 className="text-4xl font-bold mb-12">{t("services.title")}</h2>
 
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
         {/* Swiper Card */}
