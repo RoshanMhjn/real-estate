@@ -62,7 +62,7 @@ export const Navbar = () => {
                       {section.items.map((item) => (
                         <li key={item}>
                           <NavigationMenuLink asChild>
-                            <a href="#" className="block">
+                            <a href={`/${item}`} className="block">
                               <div className="font-medium">{item}</div>
                               <div className="text-muted-foreground text-sm">
                                 {`Details about ${item.toLowerCase()}.`}

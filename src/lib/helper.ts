@@ -8,11 +8,11 @@ export const mobileSections = [
   },
   {
     title: "Property",
-    items: ["Components", "Documentation", "Blog"],
+    items: ["All Properties", "For Rent", "For Sale", "Land", "House"],
   },
   {
     title: "Pages",
-    items: ["Components", "Documentation", "Blog"],
+    items: ["EMICalculator", "Book an Appointment", "Blog"],
   },
 ];
 
@@ -166,6 +166,11 @@ export const properties: Property[] = [
       facingDirection: "South-East",
       roadAccess: "paved",
     },
+    featuredVideo:
+      "https://www.youtube.com/embed/4jnzf1yj48M?si=21CRqbXjgqj98vJv",
+
+    locationMap:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31713618354!2d85.28493302080203!3d27.708954252207754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1754459721757!5m2!1sen!2snp",
     contact: {
       name: "Ram Rai",
       phone: "9800000001",
@@ -212,6 +217,9 @@ export const properties: Property[] = [
       negotiable: false,
       fixed: true,
     },
+    featuredVideo: "https://youtu.be/4jnzf1yj48M?si=u5CwhviY11BUjJ7t",
+    locationMap:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31713618354!2d85.28493302080203!3d27.708954252207754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1754459721757!5m2!1sen!2snp",
     features: {
       landArea: {
         ropani: 1,
@@ -250,6 +258,10 @@ export const properties: Property[] = [
     images: [
       "https://images.pexels.com/photos/19200806/pexels-photo-19200806.jpeg",
     ],
+    featuredVideo:
+      "https://www.youtube.com/embed/4jnzf1yj48M?si=21CRqbXjgqj98vJv",
+    locationMap:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31713618354!2d85.28493302080203!3d27.708954252207754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1754459721757!5m2!1sen!2snp",
     price: {
       amount: 10000,
       negotiable: true,
@@ -294,6 +306,10 @@ export const properties: Property[] = [
       amount: 50000,
       negotiable: true,
     },
+    featuredVideo:
+      "https://www.youtube.com/embed/4jnzf1yj48M?si=21CRqbXjgqj98vJv",
+    locationMap:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31713618354!2d85.28493302080203!3d27.708954252207754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1754459721757!5m2!1sen!2snp",
     features: {
       floors: 2,
       bedrooms: 3,

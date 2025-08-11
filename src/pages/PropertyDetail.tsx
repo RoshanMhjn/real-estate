@@ -40,6 +40,7 @@ export default function PropertyDetail() {
     price,
     features,
     contact,
+    featuredVideo,
     facilitiesDescription,
     otherFacilities,
     description,
@@ -101,6 +102,20 @@ export default function PropertyDetail() {
         <div className="text-sm text-gray-500">
           Type: {propertyType}, Purpose: {purpose}, Use: {useType}
         </div>
+      </div>
+
+      {/* featured video */}
+
+      <div className="space-y-2 mt-6">
+        <p className="text-xl font-semibold mb-2">Featured Video</p>
+        <iframe
+          className="w-full"
+          height="315"
+          allowFullScreen
+          src={`${featuredVideo}`}
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>
       </div>
 
       {/* Features */}
@@ -200,6 +215,16 @@ export default function PropertyDetail() {
               )
           )}
         </ul>
+      </div>
+
+      <div className="space-y-2 mt-6">
+        <p className="text-xl font-semibold mb-2">Property Location</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!4v1754460878272!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ3BfSjJLNVFF!2m2!1d27.64690753513056!2d85.3713884274936!3f225.5290858613729!4f-14.562675127436819!5f0.7820865974627469"
+          className="w-full"
+          height="450"
+          loading="lazy"
+        ></iframe>
       </div>
 
       {locationDetails && (

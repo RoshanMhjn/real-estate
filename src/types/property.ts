@@ -14,7 +14,8 @@ export interface Property {
     negotiable: boolean;
     fixed?: boolean;
   };
-
+  featuredVideo: string;
+  locationMap: string;
   features: {
     floors?: number;
     bedrooms?: number;
